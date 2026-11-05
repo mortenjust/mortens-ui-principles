@@ -20,3 +20,18 @@ Follow these principles when changing a user interface:
 16. After writing code, before considering this done, check this list of UI principles again.
 
 Inspect the relevant existing UI and components before adding anything. Apply the principles to the requested scope, then verify actual interaction and hit targets. Remove unsolicited copy and redundant controls rather than explaining around an interaction problem.
+
+## Additional shared rules
+
+17. When you add a control, add a tooltip
+18. Start the explanation with a verb. “Play animation”, “Add animation after the last”
+19. Don’t repeat the control’s text
+max 60 to 75 chars, sentence case
+20. Sentence fragments and omitted articles are ok
+21. If you need more chars, maybe the UI is too complex
+22. Omit ending punctuation
+23. Make the tooltip context-sensitive if needed
+24. Use native tooltips in Swift. Shadcn on web. Standard timing.
+25. If the control has a keyboard shortcut and if the control doesn’t mention it, mention in tooltip. “Play animation (⌘P)”
+26. Break any of these rules sooner than do anything outright Jira
+27. Never add elements, buttons, labels, sub-headings, texts, controls, or any other elements I did not ask for. If you feel I'm about to miss out on something very important, use a subagent to prepare a pitch for me (I'm busy, reading your pitch on the phone, so be brief and visual)

@@ -5,7 +5,7 @@ A shared set of UI principles, fetched fresh whenever an agent uses the skill.
 - [`principles.md`](principles.md) is the canonical guidance.
 - [`SKILL.md`](SKILL.md) is a small discoverable loader. It tells the agent to fetch the current raw file from `main` once per invocation, apply it, then read relevant project additions.
 
-The initial principles preserve the complete body of Morten's existing global `ui-principles` skill, including all 16 numbered rules. Additional tooltip guidance found in a project copy has not been assumed to be shared policy.
+The principles preserve the original 16 rules and the additional shared tooltip and scope rules recovered from Morten's newer global `mortens-ui` skill. Project-specific additions stay in each project's instructions.
 
 ## Install
 
