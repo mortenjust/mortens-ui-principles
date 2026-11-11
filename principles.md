@@ -35,3 +35,4 @@ max 60 to 75 chars, sentence case
 25. If the control has a keyboard shortcut and if the control doesn’t mention it, mention in tooltip. “Play animation (⌘P)”
 26. Break any of these rules sooner than do anything outright Jira
 27. Never add elements, buttons, labels, sub-headings, texts, controls, or any other elements I did not ask for. If you feel I'm about to miss out on something very important, use a subagent to prepare a pitch for me (I'm busy, reading your pitch on the phone, so be brief and visual)
+28. Never use all caps for headings, labels, or any other UI text unless explicitly asked. Use normal sentence case.
