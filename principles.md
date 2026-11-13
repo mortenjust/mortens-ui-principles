@@ -38,3 +38,4 @@ max 60 to 75 chars, sentence case
 
     If you insist on breaking this rule, use a subagent to prepare a pitch for me (be brief and visual)
 28. Never use all caps for headings, labels, or any other UI text unless explicitly asked. Use normal sentence case.
+29. If I'm asking for a technically impossible outcome, find the best possible fallback, build it, and pitch me with screenshots or other relevant artifacts.
