@@ -4,15 +4,15 @@
 
 ## Install
 
-Requires Node.js 22.20 or later. Install for Codex across projects:
+Requires Node.js 22.20 or later.
 
 ```sh
-npx skills add mortenjust/mortens-ui-principles --skill mortens-ui-principles --agent codex --global --yes
+npx skills add mortenjust/mortens-ui-principles
 ```
 
-For one project, run the command from its folder without `--global`.
+Run this in your project folder. Add `--global` to install across projects.
 
-Use `$mortens-ui-principles` when working on UI. The skill tells the agent to fetch the current principles each time and report any fetch failure.
+Ask your agent to use Morten's UI principles when working on UI. The skill tells the agent to fetch the current principles each time and report any fetch failure.
 
 ## Update the rules
 
