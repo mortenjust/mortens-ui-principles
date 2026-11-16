@@ -11,18 +11,18 @@
 9. Never use jargon. Choose words anyone can understand.
 10. Minimize language. Much of the worldwide audience does not speak English natively.
 11. Show rather than tell.
-12. Respond to interactions in under 50 ms. If the operation cannot finish that quickly, immediately indicate that the request was received.
-13. Click targets can be larger than their visible contents when useful, without becoming excessive or overlapping other controls.
-14. In SwiftUI, give buttons with transparent areas a contentShape so their entire intended area receives clicks. Put padding inside the label before applying the shape.
-15. Before writing any code, inspect the closest existing control in the product. Reuse its wording, layout, interaction, and DRY code when it makes sense.
-16. After writing code, before considering this done, check this list of UI principles again.
-17. Never add elements, buttons, labels, sub-headings, texts, controls, or any other elements I did not ask for.
-18. If you insist on breaking this rule, use a subagent to prepare a pitch for me (be brief and visual).
-19. Never use all caps for headings, labels, or any other UI text unless explicitly asked. Use normal sentence case.
-20. If I'm asking for a technically impossible outcome, find the best possible fallback, build it, and pitch me with screenshots or other relevant artifacts.
-21. Never lead the user down a path that will always or frequently end with an error message because you think that's what I want. That is never what I want.
-22. Always include a press/active state for a custom button or tab/segmented control. Without it, the button feels unresponsive and broken. If there is a selected state (as in a tab), don't make the press state the same as selected state.
-23. Break any of these rules sooner than do anything outright barbaric.
+12. Respond visually to interactions in under 50 ms. If the operation cannot finish that quickly, immediately indicate that the request was received. Show loaders for general flows. Show placeholders if you're waiting for items. 
+14. Click targets can be larger than their visible contents when useful, without becoming excessive or overlapping other controls.
+15. In SwiftUI, give buttons with transparent areas a contentShape so their entire intended area receives clicks. Put padding inside the label before applying the shape.
+16. Before writing any code, inspect the closest existing control in the product. Reuse its wording, layout, interaction, and DRY code when it makes sense.
+17. After writing code, before considering this done, check this list of UI principles again.
+18. Never add elements, buttons, labels, sub-headings, texts, controls, or any other elements I did not ask for.
+19. If you insist on breaking this rule, use a subagent to prepare a pitch for me (be brief and visual).
+20. Never use all caps for headings, labels, or any other UI text unless explicitly asked. Use normal sentence case.
+21. If I'm asking for a technically impossible outcome, find the best possible fallback, build it, and pitch me with screenshots or other relevant artifacts.
+22. Never lead the user down a path that will always or frequently end with an error message because you think that's what I want. That is never what I want.
+23. Always include a press/active state for a custom button or tab/segmented control. Without it, the button feels unresponsive and broken. If there is a selected state (as in a tab), don't make the press state the same as selected state.
+24. Break any of these rules sooner than do anything outright barbaric.
 
 ## Text in UI
 
