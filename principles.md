@@ -1,6 +1,4 @@
-# UI principles
-
-Follow these principles when changing a user interface:
+## UI principles
 
 1. Never add labels or explanation text that was not explicitly requested. Preserve accessibility names without adding visible text.
 2. Before designing a control, look for similar controls in the product.
@@ -16,28 +14,44 @@ Follow these principles when changing a user interface:
 12. Respond to interactions in under 50 ms. If the operation cannot finish that quickly, immediately indicate that the request was received.
 13. Click targets can be larger than their visible contents when useful, without becoming excessive or overlapping other controls.
 14. In SwiftUI, give buttons with transparent areas a contentShape so their entire intended area receives clicks. Put padding inside the label before applying the shape.
-15. Before writing any code, inspect the closest existing control in the product. Reuse its wording, layout, interaction, and DRY code when it makes sense
+15. Before writing any code, inspect the closest existing control in the product. Reuse its wording, layout, interaction, and DRY code when it makes sense.
 16. After writing code, before considering this done, check this list of UI principles again.
+17. Never add elements, buttons, labels, sub-headings, texts, controls, or any other elements I did not ask for.
+18. If you insist on breaking this rule, use a subagent to prepare a pitch for me (be brief and visual).
+19. Never use all caps for headings, labels, or any other UI text unless explicitly asked. Use normal sentence case.
+20. If I'm asking for a technically impossible outcome, find the best possible fallback, build it, and pitch me with screenshots or other relevant artifacts.
+21. Never lead the user down a path that will always or frequently end with an error message because you think that's what I want. That is never what I want.
+22. Always include a press/active state for a custom button or tab/segmented control. Without it, the button feels unresponsive and broken. If there is a selected state (as in a tab), don't make the press state the same as selected state.
+23. Break any of these rules sooner than do anything outright barbaric.
 
-Inspect the relevant existing UI and components before adding anything. Apply the principles to the requested scope, then verify actual interaction and hit targets. Remove unsolicited copy and redundant controls rather than explaining around an interaction problem.
+## Text in UI
 
-## Additional shared rules
+1. Match the app's voice and vocabulary. Build reference lists if needed.
+2. Use words that are familiar to the app's users.
+3. Omit needless words.
+4. Read out loud to check flow.
+5. Put the most important info first.
+6. Use the active voice.
+7. Don't be cute.
+8. Don't be clever.
+9. Don't say "Click here". Describe the action.
+10. Be consistent.
+11. Actions and flows are different. When starting a flow, say something like "Get started", then "Continue" or "Next", and "Done" at the final step.
+12. Try not to say "Your" and "My" (e.g. "Projects" instead of "Your projects"). "Unable to load" instead of "We couldn't load".
+13. Don't say "click" when the user is on a phone. Don't say tap on a desktop.
+14. Empty states: provide clear next steps, either with UI or text.
+15. Errors: Don't say oops or darn. Be specific. In general, try to design the UI to minimize and avoid errors.
+16. Settings: Short and practical labels. Explain only when ambiguous or unexpected.
 
-17. When you add a control, add a tooltip
-18. Start the explanation with a verb. “Play animation”, “Add animation after the last”
-19. Don’t repeat the control’s text
-max 60 to 75 chars, sentence case
-20. Sentence fragments and omitted articles are ok
-21. If you need more chars, maybe the UI is too complex
-22. Omit ending punctuation
-23. Make the tooltip context-sensitive if needed
-24. Use native tooltips in Swift. Shadcn on web. Standard timing.
-25. If the control has a keyboard shortcut and if the control doesn’t mention it, mention in tooltip. “Play animation (⌘P)”
-26. Break any of these rules sooner than do anything outright Jira
-27. Never add elements, buttons, labels, sub-headings, texts, controls, or any other elements I did not ask for.
+## Tooltips
 
-    If you insist on breaking this rule, use a subagent to prepare a pitch for me (be brief and visual)
-28. Never use all caps for headings, labels, or any other UI text unless explicitly asked. Use normal sentence case.
-29. If I'm asking for a technically impossible outcome, find the best possible fallback, build it, and pitch me with screenshots or other relevant artifacts.
-30. Never lead the user down a path that will always or frequently end with an error message because you think that's what I want. That is never what I want.
-31. Always include a press/active state for a custom button or tab/segmented control. Without it, the button feels unresponsive and broken. If there is a selected state (as in a tab), don't make the press state the same as selected state.
+1. When you add a control, add a tooltip.
+2. Start the explanation with a verb. "Play animation", "Add animation after the last".
+3. Don't repeat the control's text.
+4. Max 60 to 75 characters, sentence case.
+5. Sentence fragments and omitted articles are OK.
+6. If you need more characters, maybe the UI is too complex.
+7. Omit ending punctuation.
+8. Make the tooltip context-sensitive if needed.
+9. Use native tooltips in Swift. Shadcn on web. Standard timing.
+10. If the control has a keyboard shortcut and if the control doesn't mention it, mention it in the tooltip. "Play animation (⌘P)"
