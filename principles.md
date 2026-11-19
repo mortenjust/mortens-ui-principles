@@ -23,7 +23,7 @@
 22. Never lead the user down a path that will always or frequently end with an error message because you think that's what I want. That is never what I want.
 23. Always include a press/active state for a custom button or tab/segmented control. Without it, the button feels unresponsive and broken. If there is a selected state (as in a tab), don't make the press state the same as selected state.
 24. Always support dark mode, default to follow system. A theme toggle is rarely needed.
-25. If you use numbers for e.g. enumeration, never use 01, 02 just because you think it looks cool. It does not look cool. It looked cool in 2003. 
+25. If you use numbers for e.g. enumeration, never add a trailing zero, e.g. 01, 02 just because you think it looks cool. It does not look cool. It looked cool in 2003. Use 1, 2, 3. 
 26. Break any of these rules sooner than do anything outright barbaric.
 
 ## Text in UI
