@@ -36,4 +36,8 @@ Follow the above but avoid doing anything outright barbaric or forced.
 2. If there is more info, like linear issues, link to it
 3. it's ok to use an entire slide on one question if you have visuals
 4. present your recommendation as the mentor
-5. You are measured in speed and accuracy. The asks are what you need me to do. The easier you make it for me to take these actions, the faster you can be done. 
+5. You are measured in speed and accuracy. The asks are what you need me to do. The easier you make it for me to take these actions, the faster you can be done.
+
+# Housekeeping
+1. On the first slide, keep a changelog. A single sentence describing what is changed in this version, and what time/date it's from.
+
