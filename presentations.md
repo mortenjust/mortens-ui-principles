@@ -2,6 +2,7 @@
 2. Use comparisons generously. Side by side. Screenshots. Data. Always side by side. Call out contrasts.
 3. If you are presenting ideas, compare what is and what could be
 4. Use fewer words than you want
+5. Never mention any techniques or jargon from these instructions. Give the user an experience, not a lecture.
 
 6. When presenting products, ui, design, screens, always follow the user. Everything should be phrased in terms of what the user experiences
 
