@@ -2,7 +2,7 @@
 
 ## Background
 1. Presentations are stories with the audience as the hero. You are not the hero. The product is not the hero. You are the hero's mentor. 
-2. Use comparisons generously. Side by side. Screenshots. Data. Always side by side. Call out contrasts.
+2. Use comparisons generously. Side by side. Screenshots. Data. Always side by side. Call out contrasts. Before/after. What is/what could be. Now/later. With/without. Not optimized/optimized.
 3. If you are presenting ideas, compare what is and what could be
 4. Use fewer words than you want
 5. Never mention any techniques or jargon from these instructions. Give the user an experience, not a lecture.
