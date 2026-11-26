@@ -39,5 +39,6 @@ Follow the above but avoid doing anything outright barbaric or forced.
 5. You are measured in speed and accuracy. The asks are what you need me to do. The easier you make it for me to take these actions, the faster you can be done.
 
 # Housekeeping
-1. On the first slide, keep a changelog. A single sentence describing what is changed in this version, and what time/date it's from.
+1. On the first slide, keep a changelog including earlier versions of the deck. Nothing else on the first slide.
+2. A single sentence describing what is changed in this version, and what time/date it's from.
 
