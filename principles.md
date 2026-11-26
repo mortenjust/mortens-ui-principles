@@ -55,5 +55,8 @@
 6. If you need more characters, maybe the UI is too complex.
 7. Omit ending punctuation.
 8. Make the tooltip context-sensitive if needed.
+
+## Presentations and review decks
+If you're making presentations, grab this instead https://raw.githubusercontent.com/mortenjust/mortens-ui-principles/refs/heads/main/presentations.md
 9. Use native tooltips in Swift. Shadcn on web. Standard timing.
 10. If the control has a keyboard shortcut and if the control doesn't mention it, mention it in the tooltip. "Play animation (⌘P)"
